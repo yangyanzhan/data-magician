@@ -3,6 +3,6 @@ import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   test("main", () {
-    expect(MyList().data(), "data");
+    expect(List.from([1, 2, 3]).isOf(type: 1.runtimeType), true);
   });
 }
